@@ -29,6 +29,20 @@ window.onload = function() {
         }
     })
 
+    
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 500) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+
     // $(document).on('click touchstart', function (e) {
     //     if ($(e.target).closest("#header .menu").length === 0 && $(e.target).closest("#header .menu").length === 0) {
     //         $("#header .menu").css('display', 'none');
