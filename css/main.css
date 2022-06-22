@@ -157,7 +157,7 @@ body {
     margin-top: -6px;
 }
 .section-info .info {
-    padding: 130px 10px 60px 10px;
+    padding: 140px 10px 60px 10px;
     text-align: center;
 }
 .section-info .info p {
@@ -373,6 +373,9 @@ body {
     padding: 5px 15px;
     border-radius: 15px;
     font-size: 14px;
+}
+.q4 .right .q4-box .age-detail .tag-smt {
+    display: none;
 }
 .youtubes {
     padding: 90px 50px;
@@ -1427,9 +1430,18 @@ body {
         margin: 4px 0 4px 0;
         font-size: 14px;
     }
+
     .q4 .right .q4-box .age-detail .tag {
-        font-size: 12px;
+        display: none;
     }
+    .q4 .right .q4-box .age-detail .tag-smt {
+        display: inline-block;
+        font-size: 13px;
+        background-color: #F2F2F2;
+        padding: 5px 15px;
+        border-radius: 15px;
+    }
+
     .q5 {
         flex-direction: column;
         position: relative;
