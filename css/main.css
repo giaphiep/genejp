@@ -1430,9 +1430,9 @@ body {
         flex: 0 100%;
     }
     .q5 .right .percent-67, .q5 .right .percent-90, .q5 .right .percent-50 {
-        width: 80px;
-        height: 80px;
-        padding: 15px 0;
+        width: 100px;
+        height: 100px;
+        padding: 27px 0;
     }
     .q5 .right .percent-item > span:last-child {
         font-size: 1.2rem
@@ -1855,7 +1855,18 @@ body {
     .feedback .box .box-body .box-item .arrow {
         left: -10px;
     }
-  
+    .q5 .right .question {
+        padding-left: 100px;
+        padding-top: 60px;
+        text-align: left;
+       
+    }
+    .q5 .right .question span {
+        border-bottom: 0;
+    }
+    .q5 {
+        min-height: 550px;
+    }
   
 }
 
@@ -1930,6 +1941,7 @@ body {
     .q8 .right .point-item:nth-child(2) .point-right {
         margin-top: 0;
     }
+   
    
 }
 
