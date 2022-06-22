@@ -2013,6 +2013,12 @@ body {
         margin-top: 0;
     }
    
+    .q6 .right .box .box-foot1 {
+        padding-top: 8px;
+    }
+    .q6 .right .box .box-foot1 p {
+        line-height: 16px;
+    }
    
 }
 
