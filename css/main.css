@@ -1671,6 +1671,10 @@ body {
     .q3 .left {
         padding: 30px;
     }
+    .q4 .right .q4-box .age-detail .tag {
+        background-color: #fff;
+        padding: 0;
+    }
     .q6 {
         padding: 30px 15px;
     }
@@ -1718,6 +1722,8 @@ body {
     .talk {
         padding: 45px 30px;
     }
+
+    
 }
 @media (max-width: 480px) { 
     #slide .book {
