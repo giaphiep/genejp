@@ -138,9 +138,7 @@ body {
 #slide .txt span {
     font-size: 1.8rem;
 }
-#slide img {
-    height: 100%;
-}
+
 #slide .book {
     max-width: 300px;
     position: absolute;
