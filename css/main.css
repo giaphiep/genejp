@@ -903,6 +903,13 @@ body {
     font-weight: normal;
 }
 
+.talk .talk-boxs .talk-box-item a:hover {
+    text-decoration: underline;
+    color: #FF4180;
+}
+.talk-second .talk-boxs .talk-box-item a:hover {
+    color: #008FE2;
+}
 
 .step {
     margin-top: 10px;
