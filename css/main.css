@@ -677,6 +677,7 @@ body {
     flex: 0 calc(100% - 90px);
     text-align: left;
     font-size: 1.1rem;
+    font-weight: bold;
 }
 .q8 .right .point-item:last-child {
     margin-bottom: 0;
