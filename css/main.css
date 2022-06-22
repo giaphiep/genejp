@@ -1381,6 +1381,7 @@ body {
         object-fit: cover;
     }
     .q4 {
+        background: url('../images/q4-smt.png');
         padding: 30px;
     }
     .q4 .left .question {
@@ -1490,6 +1491,9 @@ body {
     }
     .youtubes {
         padding: 30px;
+        background: url('../images/bg-youtube-smt.png');
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .feedback .box .box-body {
         padding: 30px;
@@ -1501,6 +1505,10 @@ body {
     .youtubes .list-youtube .box-youtube {
         flex: 0 50%;
         max-width: 50%;
+    }
+    .q7 {
+        background: url('../images/q7-smt.png');
+        background-repeat: no-repeat;
     }
     .q8 {
         padding: 30px;
