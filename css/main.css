@@ -1948,11 +1948,16 @@ body {
     .q6 .right .box .box-foot1 p, .q6 .right .box .box-foot2 p, .q6 .right .box .box-foot3 p {
         font-size: 10px;
     }
-    .q6 .right .box .box-foot3 p {
-        line-height: 16px;
-    }
+
     .youtubes .list-youtube .box-youtube h5 {
         font-size: 12px;
+    }
+    .q6 .right .box .box-foot1 {
+        padding-top: 10px;
+    }
+    .q6 .right .box .box-foot3 p {
+        line-height: 14px;
+        padding-top: 2px;
     }
 }
 
@@ -2013,13 +2018,7 @@ body {
         margin-top: 0;
     }
    
-    .q6 .right .box .box-foot1 {
-        padding-top: 10px;
-    }
-    .q6 .right .box .box-foot3 p {
-        line-height: 14px;
-        padding-top: 2px;
-    }
+    
    
 }
 
