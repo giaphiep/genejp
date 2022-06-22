@@ -107,6 +107,9 @@ body {
     position: relative;
     width: 100%;
     z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #slide .btn {
     padding: 10px 30px;
@@ -129,10 +132,10 @@ body {
 #slide .txt {
     color: #fff;
     position: absolute;
-    left: 50%;
+    /* left: 50%; */
     bottom: 35%;
     border: none;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
    
 }
 #slide .txt span {
@@ -674,7 +677,7 @@ body {
     font-weight: bold;
 }
 .q8 .right .point-item .point-right {
-    padding-left: 30px;
+    padding-left: 15px;
     flex: 0 calc(100% - 90px);
     text-align: left;
     font-size: 1.1rem;
@@ -746,6 +749,7 @@ body {
 }
 .q10 .left .answer .answer-item .head {
     font-size: 1.4rem;
+    font-weight: bold;
 }
 .q10 .left .answer .answer-item .price, .q10 .left .answer .answer-item .price-discount {
     color: #A4A4A1;
@@ -808,6 +812,7 @@ body {
     flex: 0 150px;
     padding-top: 8px;
     text-align: left;
+    font-weight: bold;
 }
 .q10 .left .free-tw .box-item > div:last-child {
     flex: 0 calc(100% - 150px);
@@ -827,7 +832,7 @@ body {
     margin: 30px 15px ;
     border: 2px solid #E70773;
     color: #E70773;
-    padding: 6px 40px;
+    padding: 10px 50px;
     background: #fff;
     text-align: center;
     cursor: pointer;
@@ -1211,10 +1216,10 @@ body {
         display: flex;
         flex-direction: column;
         text-align: center;
-        bottom: 28%;
+        bottom: 33%;
     }
     .section-info .info {
-        padding: 90px 10px 60px 10px;
+        padding: 120px 10px 60px 10px;
     }
     .q1 .left {
         padding: 60px 30px;
@@ -1600,12 +1605,14 @@ body {
     }
     .step .step-content .steps .step-item {
         width: 100%;
+        height: auto;
+        padding: 10px;
     }
     .step .step-content .steps .arrow img {
         max-width: 80px;
     }
     .step .step-content .steps .arrow {
-        padding: 15px 9px 10px 10px;
+        padding: 20px 9px 15px 10px;
     }
     .step .list-youtube {
         padding: 30px 0;
@@ -1613,8 +1620,15 @@ body {
     .step .head, .step .step-youtube span {
         font-size: 1.2rem;
     }
+    .step .step-content .steps .step-item p:first-child {
+        margin-bottom: 10px;
+    }
     .step .step-content .steps .step-item p:not(:first-child) {
         font-size: 14px;
+    }
+    .step .step-content .steps .step-item p:nth-child(2), .step .step-content .steps .step-item p:nth-child(3) {
+        display: inline-block;
+        font-size: 1.3rem;
     }
     .step .step-smt {
         display: block;
@@ -1627,6 +1641,7 @@ body {
         font-size: 1.7rem;
         margin-top: 15px;
     }
+    
     .step .step-smt .arrow {
         padding: 15px 9px 0 10px;
         margin: 0 auto;
@@ -1760,6 +1775,7 @@ body {
     #slide .txt {
         width: 320px;
         font-size: 1rem;
+        bottom: 34%;
     }
     .section-info .info .label {
         font-size: 1.5rem;
@@ -1887,6 +1903,9 @@ body {
     .q6 .right .box .box-foot1 p, .q6 .right .box .box-foot2 p, .q6 .right .box .box-foot3 p {
         font-size: 10px;
     }
+    .q6 .right .box .box-foot3 p {
+        line-height: 16px;
+    }
     .youtubes .list-youtube .box-youtube h5 {
         font-size: 12px;
     }
@@ -1898,7 +1917,7 @@ body {
         max-width: 250px;
     }
     .section-info .info {
-        padding: 120px 10px 0 10px;
+        padding: 150px 10px 0 10px;
     }
     .section-info .info-detail .box .head {
         text-align: left;
@@ -1942,9 +1961,9 @@ body {
     .q8 .right .point-item .point-left span {
         font-size: 14px;
     } */
-    .q8 .right .point-item .point-right {
+    /* .q8 .right .point-item .point-right {
         margin-top: -8px;
-    }
+    } */
     .q8 .right .point-item:nth-child(2) .point-right {
         margin-top: 0;
     }
