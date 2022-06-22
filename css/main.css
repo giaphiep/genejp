@@ -1952,12 +1952,9 @@ body {
     .youtubes .list-youtube .box-youtube h5 {
         font-size: 12px;
     }
-    .q6 .right .box .box-foot1 {
-        padding-top: 10px;
-    }
-    .q6 .right .box .box-foot3 p {
+
+    .q6 .right .box .box-foot3 p  {
         line-height: 14px;
-        padding-top: 2px;
     }
 }
 
