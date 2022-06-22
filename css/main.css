@@ -1641,7 +1641,9 @@ body {
     .qa .list-qa .qa-item:last-child {
         margin-bottom: 0;
     }
-    
+    .step {
+        background: url(../images/bg-step-smt.png);
+    }
 }
 
 @media (max-width: 576px) {
