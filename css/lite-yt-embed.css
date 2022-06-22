@@ -84,3 +84,16 @@ lite-youtube.lyt-activated > .lty-playbtn {
     white-space: nowrap;
     width: 1px;
   }
+
+/* .lite-youtube > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: opacity 0.35s ease-out, visibility 0 linear 0.35s;
+}
+.lyt-activated > img {
+    opacity: 0;
+    visibility: 'hidden';
+} */
