@@ -806,12 +806,14 @@ body {
 .q10 .left .free-tw .box-item > div:first-child {
     flex: 0 150px;
     padding-top: 8px;
+    text-align: left;
 }
 .q10 .left .free-tw .box-item > div:last-child {
     flex: 0 calc(100% - 150px);
     font-size: 2rem;
+    text-align: left;
     /* color: #E70773; */
-    padding-left: 30px;
+    /* padding-left: 30px; */
     text-align:left;
     background: -webkit-linear-gradient(left, #F255A3 , #E70773);
     background: -o-linear-gradient(right, #F255A3, #E70773);
