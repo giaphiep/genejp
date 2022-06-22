@@ -2014,10 +2014,11 @@ body {
     }
    
     .q6 .right .box .box-foot1 {
-        padding-top: 8px;
+        padding-top: 10px;
     }
     .q6 .right .box .box-foot1 p {
         line-height: 16px;
+        padding-top: 2px;
     }
    
 }
