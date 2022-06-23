@@ -2048,7 +2048,7 @@ span.more-size {
    
 }
 
-@media (max-width: 325px) {
+@media (max-width: 330px) {
 
     #slide .btn {
         padding: 5px 15px;
@@ -2076,5 +2076,15 @@ span.more-size {
         width: 80px;
         height: 80px;
         padding: 16px 0;
+    }
+    .q4 .right .q4-box .age-detail .tag-smt {
+        display: none;
+    }
+    .q4 .right .q4-box .age-detail .tag {
+        font-size: 13px;
+        background-color: #F2F2F2;
+        padding: 5px 15px;
+        border-radius: 15px;
+        display: inline-block;
     }
 }
