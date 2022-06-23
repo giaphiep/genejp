@@ -2043,9 +2043,7 @@ span.more-size {
     .q8 .right .point-item:nth-child(2) .point-right {
         margin-top: 0;
     }
-   
-    
-   
+
 }
 
 @media (max-width: 330px) {
@@ -2055,6 +2053,9 @@ span.more-size {
     }
     #slide .book {
         max-width: 210px;
+    }
+    .section-info .info-detail {
+        padding: 60px 30px;
     }
     .q1 .left {
         padding: 15px 15px;
