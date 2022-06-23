@@ -2048,9 +2048,22 @@ span.more-size {
    
 }
 
-@media (max-width: 320px) {
+@media (max-width: 325px) {
+
+    #slide .btn {
+        padding: 5px 15px;
+    }
+    #slide .book {
+        max-width: 200px;
+    }
     .q1 .left {
         padding: 15px 15px;
+    }
+    .q1 .right, .q2 .left, .q3 .right {
+        height: 330px;
+    }
+    .q2 .right {
+        padding: 0 15px 0 0;
     }
 
     .q6 .right .box .box-foot1, .q6 .right .box .box-foot2, .q6 .right .box .box-foot3 {
@@ -2058,5 +2071,10 @@ span.more-size {
     }
     .q6 .right .box .box-foot1 p, .q6 .right .box .box-foot2 p, .q6 .right .box .box-foot3 p {
         font-size: 6px;
+    }
+    .q5 .right .percent-67, .q5 .right .percent-90, .q5 .right .percent-50 {
+        width: 80px;
+        height: 80px;
+        padding: 16px 0;
     }
 }
