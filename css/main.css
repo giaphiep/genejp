@@ -1957,7 +1957,10 @@ span.more-size {
     .q5 {
         min-height: 550px;
     }
-    
+    .q10 .left .question {
+        margin-bottom: 15px;
+    }
+
     span.more-size {
         font-size: 15px;
     }
