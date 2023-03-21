@@ -741,7 +741,7 @@ body {
     padding: 0 90px;
 }
 .q10 .left {
-    padding: 0 120px;
+    padding: 0;
 }
 .q10 .left .question {
     font-size: 1.5rem;
