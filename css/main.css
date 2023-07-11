@@ -1142,6 +1142,41 @@ span.more-size {
     font-size: 17px;
 }
 
+/* box price */
+.box-price-des {
+    font-size: 16px;
+}
+.box-price {
+    margin-top: 30px;
+    border: 2px solid rgba(241, 84, 157, 0.5);
+    padding: 30px 20px;
+}
+.box-price h2 {
+    color:#2a2a2a;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+.box-price p {
+    font-size: 16px;
+}
+.box-price .box-price-item {
+    margin-bottom: 30px;
+}
+.box-price .box-price-item:last-child {
+    margin-bottom: 0;
+}
+
+.box-price .box-price-item p span.text-red {
+    font-size: 1.2rem;
+    color: #E70773;
+}
+
+.box-price .box-price-item p span.text-brown {
+    font-size: 1.2rem;
+    color: brown;
+}
+/* end box price */
+
 @media (max-width: 1100px) {
     #slide .txt span {
         font-size: 1.5rem;
@@ -1734,6 +1769,42 @@ span.more-size {
     .step {
         background: url(../images/bg-step-smt.png);
     }
+
+    /* box price */
+    .box-price-des {
+        font-size: 14px;
+    }
+    .box-price {
+        margin-top: 30px;
+        border: 2px solid rgba(241, 84, 157, 0.5);
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    .box-price h2 {
+        color:#2a2a2a;
+        margin-bottom: 15px;
+        font-size: 1.0rem;
+    }
+    .box-price p {
+        font-size: 14px;
+    }
+    .box-price .box-price-item p span.text-red {
+        font-size: 1.0rem;
+        color: #ff0000;
+    }
+
+    .box-price .box-price-item p span.text-brown {
+        font-size: 1.0rem;
+        color: brown;
+    }
+    .box-price .box-price-item {
+        margin-bottom: 15px;
+    }
+    .box-price .box-price-item:last-child {
+        margin-bottom: 0;
+    }
+    /* end box price */
+
    
 }
 
