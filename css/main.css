@@ -1171,9 +1171,24 @@ span.more-size {
     color: #E70773;
 }
 
-.box-price .box-price-item p span.text-brown {
+.box-price .box-price-item p span.text-gray {
     font-size: 1.2rem;
-    color: brown;
+    color: gray;
+}
+.btn-line {
+    margin: 30px 15px 0 15px;
+    border: 2px solid #E70773;
+    color: #E70773;
+    padding: 10px 50px;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-line:hover {
+    border: 2px solid #E70773;
+    color: #fff;
+    padding: 10px 50px;
+    background: #E70773;
 }
 /* end box price */
 
@@ -1778,7 +1793,7 @@ span.more-size {
         margin-top: 30px;
         border: 2px solid rgba(241, 84, 157, 0.5);
         padding: 15px;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
     }
     .box-price h2 {
         color:#2a2a2a;
@@ -1793,9 +1808,9 @@ span.more-size {
         color: #ff0000;
     }
 
-    .box-price .box-price-item p span.text-brown {
+    .box-price .box-price-item p span.text-gray {
         font-size: 1.0rem;
-        color: brown;
+        color: gray;
     }
     .box-price .box-price-item {
         margin-bottom: 15px;
